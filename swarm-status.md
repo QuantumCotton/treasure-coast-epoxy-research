@@ -42,6 +42,19 @@
   * `materials/01-material-taxonomy.md` (markdown)
   * `data/materials.json` (JSON for web app)
 
+**[2026-01-27 18:58 UTC] Agent 1 - Material Specialist RESPAWNED (V2)**
+- Session ID: agent:main:subagent:1c1e7775-4839-4222-bd4d-7d426a3f536
+- Run ID: 04c41422-fec3-4082-85b3-a411d199d8d0
+- Model: zai/glm-4.7 ✅
+- Thinking: High ✅
+- **NEW: Brave web_search API configured ✅**
+- Target: 10,000+ words on flake taxonomy, applications, performance, coverage
+- Timeout: 15 minutes
+- Tools: web_search ✅, web_fetch, memory_search
+- Outputs:
+  * `materials/01-material-taxonomy.md` (markdown)
+  * `data/materials.json` (JSON for web app)
+
 **[PENDING] Agent 1-QA - Material QA Specialist**
 - Will review Agent 1 output against quality gates
 - Loop until QA passes (fix list → corrections → re-review)
