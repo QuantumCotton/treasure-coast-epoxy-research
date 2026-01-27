@@ -71,6 +71,14 @@
 - **Estimated total time:** 8-12 hours (includes QA loops)
 - **Final output:** `synthesis/05-master-report.md` + all JSON data files
 
+## System Updates
+
+**[2026-01-27 18:50 UTC] Default Model Changed**
+- Old default: google/gemini-3-flash-preview (quota issues)
+- New default: zai/glm-4.7 (Z.ai powerhouse - no quota)
+- Gateway restarted successfully
+- All future spawns will use zai/glm-4.7 by default
+
 ---
 
 **Last Updated:** 2026-01-27 18:40 UTC
