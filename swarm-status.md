@@ -10,13 +10,13 @@
 
 | Agent | Name | Role | Status | Session ID | Output |
 |-------|------|------|--------|------------|--------|
-| 1 | Material Specialist | Flake taxonomy, applications | 🟡 RUNNING | 117c55e8 | `materials/01-material-taxonomy.md` |
+| 1 | Material Specialist | Flake taxonomy, applications | 🟡 RUNNING | 1c1e7775 | `materials/01-material-taxonomy.md` |
 | 1-QA | Material QA Specialist | Quality assurance review | ⏳ Pending | - | `materials/01-material-qa-report.md` |
-| 2 | Supplier Discovery | Supplier list, shipping verification | ⏳ Pending | - | `suppliers/02-supplier-list.md` |
+| 2 | Supplier Discovery | Supplier list, shipping verification | 🟡 RUNNING | 117c55e8 | `suppliers/02-supplier-list.md` |
 | 2-QA | Supplier QA Specialist | Quality assurance review | ⏳ Pending | - | `suppliers/02-supplier-qa-report.md` |
-| 3 | Pricing Intelligence | Price matrix, cost analysis | ⏳ Pending | - | `pricing/03-price-matrix.md` |
+| 3 | Pricing Intelligence | Price matrix, cost analysis | 🟡 RUNNING | 928f948 | `pricing/03-price-matrix.md` |
 | 3-QA | Pricing QA Specialist | Quality assurance review | ⏳ Pending | - | `pricing/03-pricing-qa-report.md` |
-| 4 | Brand Analyst | Pros/cons, reputation, quality tiers | ⏳ Pending | - | `analysis/04-brand-analysis.md` |
+| 4 | Brand Analyst | Pros/cons, reputation, quality tiers | 🟡 RUNNING | 9290f3b | `analysis/04-brand-analysis.md` |
 | 4-QA | Brand QA Specialist | Quality assurance review | ⏳ Pending | - | `analysis/04-brand-qa-report.md` |
 | 5 | Synthesis Specialist | Master report, recommendations | ⏳ Pending | - | `synthesis/05-master-report.md` |
 | 5-QA | Master QA Specialist | Final quality assurance | ⏳ Pending | - | `synthesis/05-master-qa-report.md` |
