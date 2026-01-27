@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "project": "treasure-coast-epoxy-research",
+  "recommendations": {
+    "budget": {
+      "materials": [],
+      "suppliers": [],
+      "justification": ""
+    },
+    "premium": {
+      "materials": [],
+      "suppliers": [],
+      "justification": ""
+    },
+    "commercial": {
+      "materials": [],
+      "suppliers": [],
+      "justification": ""
+    },
+    "outdoor": {
+      "materials": [],
+      "suppliers": [],
+      "justification": ""
+    }
+  },
+  "suppliers": {
+    "top3": [],
+    "backups": []
+  },
+  "lastUpdated": null
+}
