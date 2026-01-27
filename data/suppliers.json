@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "project": "treasure-coast-epoxy-research",
+  "location": {
+    "city": "Stuart",
+    "state": "FL",
+    "zipCodes": ["34994", "34997"]
+  },
+  "unit": "50lb bag",
+  "currency": "USD",
+  "suppliers": [],
+  "materials": [],
+  "lastUpdated": null
+}
