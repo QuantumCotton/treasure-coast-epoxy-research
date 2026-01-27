@@ -80,9 +80,17 @@
 ## Notes
 
 - **Total agents in swarm:** 10 (5 primary + 5 QA agents)
-- **Current concurrent agents:** 1 (limit)
-- **Estimated total time:** 8-12 hours (includes QA loops)
+- **Current concurrent agents:** 12 (limit raised ✅)
+- **Estimated total time:** 2-4 hours (with parallel execution)
 - **Final output:** `synthesis/05-master-report.md` + all JSON data files
+
+## System Updates
+
+**[2026-01-27 18:58 UTC] Subagent Limit Increased**
+- Old limit: 4 concurrent subagents
+- New limit: 12 concurrent subagents ✅
+- Gateway restarted successfully
+- Now multiple agents can run in parallel for faster execution
 
 ## System Updates
 
