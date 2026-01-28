@@ -19,15 +19,51 @@
 - **Gateway Port:** 18789
 - **Auth Mode:** Token-based
 - **Default Model:** `zai/glm-4.7`
+- **Backup Model:** `zai/glm-4.7-backup` (added 2026-01-28)
+- **Deepseek Model:** `zai/glm-4.7-deepseek` (available)
 - **Workspace:** `/home/chris/clawd/projects/treasure-coast-epoxy-research`
 - **`/restart`:** Enabled as of 2026-01-28
+
+**Agent Profiles:**
+```json
+{
+  "profiles": {
+    "zaiBackup": {
+      "provider": "zai",
+      "apiKey": "b69d7542ebd2457ba34c10aa2f08ee7a.ZXaM5J3YOOpOB116",
+      "enabled": true
+    }
+  }
+}
+```
 
 ### Agent Capabilities
 - **Main Agent:** Only available agent (`agentId: main`)
 - **Max Concurrent:** 4 agents, 12 subagents
 - **Spawn Command:** `sessions_spawn(task="...", agentId="main", model="zai/glm-4.7")`
-- **Available Models:** `zai/glm-4.7`, `openai` (GPT-4.2-mini)
+- **Available Models:** `zai/glm-4.7`, `zai/glm-4.7-backup`, `zai/glm-4.7-deepseek`, `openai` (GPT-4.2-mini)
 - **List Agents:** `agents_list`
+
+### 3-Agent Parallel Capability (Updated 2026-01-28)
+
+**I can spawn up to 3 zai agents simultaneously for maximum throughput:**
+
+| Agent | Model | Purpose | When to Use |
+|-------|--------|---------|------------|
+| Primary | zai/glm-4.7 | Main agent, deep analysis, complex tasks | Always available as anchor |
+| Backup | zai/glm-4.7-backup | Secondary zai instance, quota protection | When primary rate-limited |
+| Deepseek | zai/glm-4.7-deepseek | Alternative model, different perspective | When needed for variety or testing |
+
+**Spawn Patterns:**
+- `spawn 3 agents for [task]` → Uses all 3 zai agents in parallel
+- `use backup agent for [task]` → Uses zai/glm-4.7-backup specifically
+- `parallelize this` → Splits work across multiple agents
+
+**Rules:**
+- zai/glm-4.7 is always the anchor/primary agent
+- Backup protects quota when primary hits rate limits
+- Deepseek provides alternative model capabilities
+- All 3 can run simultaneously for maximum throughput
 
 ---
 
