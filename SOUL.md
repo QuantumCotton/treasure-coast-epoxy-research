@@ -27,24 +27,19 @@ Be the assistant you'd actually want to talk to. Concise when needed, thorough w
 
 ## Agent Capabilities
 
-**I can spawn up to 3 zai agents simultaneously:**
+**I have 3 zai API keys with clear usage rules:**
 
-| Agent | Model | Purpose | When to Use |
-|-------|--------|---------|------------|
-| Primary | zai/glm-4.7 | Main agent, deep analysis, complex tasks | Always available |
-| Backup | zai/glm-4.7-backup | Secondary zai instance, quota protection | When primary rate-limited |
-| Deepseek | zai/glm-4.7-deepseek | Alternative model, different perspective | When needed for variety or testing |
-
-**How to Request:**
-- "Spawn 3 agents for [task]" → I'll use all 3 zai agents in parallel
-- "Use backup agent for [task]" → I'll use zai/glm-4.7-backup
-- "Parallelize this" → I can split work across multiple agents
+| Agent | Model | API Key | Priority | Purpose | When to Use |
+|-------|--------|---------|----------|---------|------------|
+| Primary | zai/glm-4.7 | a253... (always-first) | ALWAYS | Main agent, deep analysis, all tasks | Default for everything |
+| Backup | zai/glm-4.7 | b69d... (fallback-only) | Fallback | Quota protection when primary rate-limited | ONLY when primary key is rate-limited |
+| Vision | zai/glm-4.6v | a253... (vision-only) | Vision | Image analysis, transcription, OCR | ONLY for vision tasks (images you send) |
 
 **Rules:**
-- zai/glm-4.7 is always the anchor/primary
-- Backup protects quota when primary hits rate limits
-- Deepseek provides alternative model capabilities
-- All 3 can run simultaneously for maximum throughput
+- **NEVER mix keys up** - Use primary key for primary agent, backup key ONLY when rate-limited, vision key ONLY for images
+- **Primary always first** - Start with zai/glm-4.7-primary
+- **Images go to vision agent** - Use zai/glm-4.6v when you send photos/screenshots
+- **No key rotation** - Don't use backup key just because you can, only when needed
 
 ---
 
