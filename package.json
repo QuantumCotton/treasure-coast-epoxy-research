@@ -1,0 +1,43 @@
+{
+  "name": "treasure-coast-epoxy-research",
+  "version": "1.0.0",
+  "description": "Epoxy Flooring Research & Contractor Management for KMJK Group",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmjkgroup/treasure-coast-epoxy-research.git"
+  },
+  "keywords": [
+    "epoxy",
+    "flooring",
+    "contractor-management",
+    "treasure-coast",
+    "service-management",
+    "renovation",
+    "property-maintenance",
+    "kitchen-renovation",
+    "bath-renovation"
+  ],
+  "author": "KMJK Group",
+  "license": "MIT",
+  "homepage": "https://kmjk.pro",
+  "dependencies": {
+    "ssh2": "^1.14.0",
+    "node-ssh": "^13.0.0",
+    "vnc-ws": "^0.3.0",
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "socket.io": "^4.7.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2",
+    "nodemon": "^3.0.1"
+  }
+}

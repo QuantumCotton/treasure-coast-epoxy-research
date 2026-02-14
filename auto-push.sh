@@ -1,8 +1,14 @@
 #!/bin/bash
 # Auto-push script for epoxy research project
-# Runs every 5 minutes to sync progress to GitHub
+# Runs every 5 minutes to sync progress to GitHub and install dependencies
 
 cd /home/chris/clawd/projects/treasure-coast-epoxy-research
+
+# Install dependencies if needed
+if [ ! -d "node_modules" ]; then
+  echo "Installing dependencies..."
+  npm install
+fi
 
 # Check if there are changes
 if ! git diff-index --quiet HEAD --; then

@@ -1,67 +1,32 @@
 # Treasure Coast Epoxy Research
-**Comprehensive Supplier & Material Analysis for Stuart, FL**
+**Elite Service Hub (ESH) & KMJK Group - Comprehensive Supplier & Material Analysis**
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange)
+![Last Commit](https://img.shields.io/github/last-commit/treasure-coast-epoxy-research/main)
+
+**A multi-agent research swarm delivering actionable business intelligence for epoxy flooring supplier selection and material recommendations.**
 
 ---
 
-## Quick Start
+## 🏢 Business Overview
 
-1. Read `PROJECT-BRIEF.md` for full scope and methodology
-2. Check `swarm-status.md` for agent progress
-3. Find results in the `synthesis/` folder (Agent 5 output)
+**Elite Service Hub (ESH)** connects contractors with clients for:
+- Kitchen & Bath Renovation
+- Epoxy Flooring  
+- Property Maintenance
 
----
+**Owner:** Chris  
+**Key Contractor:** KMJK Group (Josue) - Jensen Beach, FL  
+**Business Website:** [kmjk.pro](https://kmjk.pro)
 
-## What This Is
-
-A 5-agent research swarm delivering actionable business intelligence for epoxy flooring supplier selection and material recommendations.
-
-**Focus Area:** Stuart, FL (zip codes 34994, 34997)
-
----
-
-## Expected Deliverables
-
-| Agent | Role | Output | Status |
-|-------|------|--------|--------|
-| 1 | Material Specialist | Complete flake taxonomy and applications | ⏳ Pending |
-| 2 | Supplier Discovery | All suppliers shipping to Stuart, FL | ⏳ Pending |
-| 3 | Pricing Intelligence | Price matrix with shipping costs | ⏳ Pending |
-| 4 | Brand Analyst | Pros/cons, reputation, quality tiers | ⏳ Pending |
-| 5 | Synthesis Specialist | Master report + recommendations | ⏳ Pending |
+This research project supports ESH's epoxy flooring division with comprehensive supplier analysis and material recommendations for the Stuart, FL market.
 
 ---
 
-## How to Use the Final Report
+## 🚀 Quick Start for Josue (KMJK Group)
 
-When complete, `synthesis/05-master-report.md` will contain:
-
-1. **Decision Matrices**
-   - Budget jobs → Recommended materials/suppliers
-   - High-end residential → Recommended materials/suppliers
-   - Commercial/Industrial → Recommended materials/suppliers
-   - Outdoor/Pool decks → Recommended materials/suppliers
-
-2. **Supplier Rankings**
-   - Top 3 partnerships with justification
-   - Backup suppliers for each tier
-
-3. **Negotiation Playbook**
-   - What to ask for
-   - Where to push on price/terms
-   - Red flags to watch for
-
-4. **Risk Mitigation**
-   - Supply chain risks
-   - Alternative options
-
----
-
-## Project Team
-
-**Stakeholder:** Chris (Treasure Coast Epoxy / KMJK)
-**Spawner:** Glitch
-**Research Team:** 5 specialized sub-agents (spawned on-demand)
-
----
-
-**Last Updated:** 2026-01-27
+### 1. Accessing the Research Swarm
